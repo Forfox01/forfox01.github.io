@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Look mom I have my own website!!</title>
+
+        <style>
+            @font-face {
+                font-family: cool;
+                src: url(Mynerve-Regular.ttf);
+            }
+            body{
+                font-family: cool;
+            }
+            .bodem{
+             position:fixed;
+             bottom: 1px;   
+            }
+            .mittel{
+                position: fixed;
+                top:300px;
+            }
+            .hi{
+                position: fixed;
+                top: 32px;
+            }
+            .fox{
+                position: fixed;
+                right: 400px;
+                top:40px;
+            }
+            .itch{
+                color: orange;
+                position: fixed;
+                top:380px;
+            }
+            .nit{
+                position: fixed;
+                top:340px;
+            }
+            .lort{
+                position: fixed;
+                top: 320px;
+            }
+            .youtube{
+                position: fixed;
+                bottom: 170px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="Top">
+            <p><h1>Hi I am Forfox</h1></p>
+            <p class="hi">nice to meet you</p>
+        </div>
+
+        <img src="sketch-1676817744274.png" width="400" height="800" class="fox" onclick="foxmow()">
+
+        <div class="mittel">
+            <p><h3>I am coding some bad games that I am posting on Itch.io</h3></p>
+            <div class="lort"><h3>mabi you like some them</h3></div>
+            <p class="nit">(but mostly not)</p>
+            <a href="https://forfox.itch.io" class="itch"><img src="itch.png" width="140" height="50"></a>
+        </div>
+
+        <div class="youtube">
+            <div>I also have a youtube chanel</div>
+            <a href="https://www.youtube.com/channel/UCSvSSjEMjr4fQIOJptOA3tQ" class="linkyou"><img src="youtube.png" width="140" height="50"></a>
+        </div>
+
+        <div class="bodem">
+            <p>thanks for rading</p>
+            <p>that is all</p>   
+        </div>
+
+
+        <script>
+            let fox=document.getElementsByClassName("fox");
+            let moew=new Audio("cat-meow-14536.mp3")
+
+            function foxmow(){
+                moew.play();
+                console.log("moew");
+            }
+        </script>
+    </body>
+</html>
